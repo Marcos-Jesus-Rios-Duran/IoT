@@ -1,0 +1,68 @@
+/* Contenedor principal */
+.p-4 {
+  padding: 16px;
+  background-color: #f9fafb;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Título */
+.text-2xl {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #4a4a4a;
+}
+
+/* Tabla */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+/* Encabezado de la tabla */
+thead {
+  background-color: #4CAF50;
+  color: white;
+}
+
+th {
+  padding: 12px 16px;
+  text-align: left;
+  font-weight: 600;
+}
+
+/* Filas de la tabla */
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+  background-color: #e9f5e3;
+  cursor: pointer;
+}
+
+td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+  font-size: 1rem;
+  color: #333;
+}
+
+/* Bordes y sombra */
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+table {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+  .overflow-x-auto {
+    overflow-x: auto;
+  }
+}
